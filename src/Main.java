@@ -3,14 +3,16 @@
 public class Main {
     public static void main(String[] args) {
 
-        System.out.println("This is the first line"); // This is the first line
-        // System.out.println("This is the second line");
+        int firstNumber;
+        firstNumber = 100;
 
-        /*
-        System.out.println("This is the third line");
-        System.out.println("This is the fourth line");
-        */
+        int secondNumber = 100;
 
-        System.out.println(/*"This is the fifth line"*/"This is the fifth line");
+        int numbersSolution = firstNumber + secondNumber;
+
+        System.out.println("Our numbers equal: " + numbersSolution);
+
+        System.out.println(numbersSolution + 100);
+
         }
     }
