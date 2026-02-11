@@ -3,16 +3,21 @@
 public class Main {
     public static void main(String[] args) {
 
-        int firstNumber;
-        firstNumber = 100;
+        // Demonstrate that variables can be assigned the value of other variables
+        int number1 = 10;
+        int number2 = number1; // number2 now holds the value '10'
 
-        int secondNumber = 100;
+        System.out.println(number2);
 
-        int numbersSolution = firstNumber + secondNumber;
+        // Update number2 to show that it changes independently of number1
+        number2 = -5;
 
-        System.out.println("Our numbers equal: " + numbersSolution);
+        // Verify the sum changes when one variable is updated
+        System.out.println(number1 + number2);
 
-        System.out.println(numbersSolution + 100);
+        // Re-assign number1 to a new value
+        number1 = 55;
 
-        }
+        System.out.println(number1 + number2);
     }
+}
