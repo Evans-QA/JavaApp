@@ -3,21 +3,36 @@
 public class Main {
     public static void main(String[] args) {
 
-        // Demonstrate that variables can be assigned the value of other variables
-        int number1 = 10;
-        int number2 = number1; // number2 now holds the value '10'
+ int valueA = 1;
+ int valueB = 2;
+ int valueC = 3;
+ int valueD = 4;
 
-        System.out.println(number2);
+  int result1 = valueD / valueB + valueA;
+  int result2 = valueC * valueB * 2 / valueD + valueA;
 
-        // Update number2 to show that it changes independently of number1
-        number2 = -5;
+ // System.out.println(result1);
+ // System.out.println(result2);
 
-        // Verify the sum changes when one variable is updated
-        System.out.println(number1 + number2);
+ int i1 = 75;
+ var i2 = 25;
 
-        // Re-assign number1 to a new value
-        number1 = 55;
+ // System.out.println(i1 + i2);
 
-        System.out.println(number1 + number2);
+        var myName = "Kevin";
+        var myAge = 25;
+        var myWeight = 91.5;
+
+        // System.out.println("Hi " + myName + " you are " + myAge + " years old and you weight " + myWeight);
+
+        int finalInt = 5;
+
+        System.out.println(finalInt);
+
+        finalInt = 10;
+
+        System.out.println(finalInt);
+
+
     }
 }
