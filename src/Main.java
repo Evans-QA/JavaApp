@@ -1,10 +1,11 @@
 public class Main {
     public static void main(String[] args) {
 
-        int i = 0;
-        while (i < 10) {
-            System.out.println(i);
-            i++;
+int v1 = 10;
+        do {
+            v1++;
+            System.out.println(v1);
         }
+        while (v1 < 15);
     }
 }
